@@ -6,6 +6,8 @@
 
 An Vite/Rollup/Webpack/esbuild/Rspack plugin to minify HTML template literal strings.
 
+> Not yet well tested and not recommended for production.
+
 ## Features
 
 - This plugin uses [`@tdewolff/minify`](https://www.npmjs.com/package/@tdewolff/minify) to get significant performance gains in complex projects.
