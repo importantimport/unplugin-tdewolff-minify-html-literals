@@ -1,0 +1,21 @@
+{
+  "name": "playground",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "build:minify-html-literals": "tsc && vite build -c vite.config.minify-html-literals.ts",
+    "build:without-minify": "tsc && vite build -c vite.config.without-minify.ts"
+  },
+  "dependencies": {
+    "lit": "^2.6.1"
+  },
+  "devDependencies": {
+    "@tdewolff/minify": "^2.12.5",
+    "rollup-plugin-minify-html-literals": "^1.2.6",
+    "typescript": "^5.0.2",
+    "unplugin-tdewolff-minify-html-literals": "workspace:*",
+    "vite": "^4.3.2"
+  }
+}
