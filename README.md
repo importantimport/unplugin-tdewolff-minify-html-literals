@@ -92,6 +92,7 @@ module.exports = {
 
 ```ts
 import { defineConfig } from 'vite'
+import minifyHTML from 'unplugin-tdewolff-minify-html-literals/vite'
 
 export default defineConfig({
   plugins: [
@@ -102,7 +103,7 @@ export default defineConfig({
       exclude: [],
       // @tdewolff/minify config
       // https://www.npmjs.com/package/@tdewolff/minify#usage
-      config: null,
+      config: undefined,
     }),
   ],
 })
