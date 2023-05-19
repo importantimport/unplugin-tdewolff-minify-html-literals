@@ -73,7 +73,7 @@ import { build } from 'esbuild'
 import minifyHTML from 'unplugin-tdewolff-minify-html-literals/esbuild'
 
 build({
-  plugins: [minifyHTML()],
+  plugins: [minifyHTML({ /* options */ })],
 })
 ```
 
